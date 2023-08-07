@@ -30,7 +30,7 @@ const Card = ({card}) =>{
         setPokemon({
             id:object['id'],
             title:object['name'],
-            type:types,
+            type:object['types'].map(val=>val['type']['name']),
             attack:object['stats'][1]['base_stat'],
             defense:object['stats'][2]['base_stat'],
             hp:object['stats'][0]['base_stat'],

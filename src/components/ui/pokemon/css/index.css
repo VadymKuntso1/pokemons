@@ -39,7 +39,7 @@
 
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:450px) {
     .pokemon>div.properties>span{
         font-size: 3vw;
         padding: 1vw;

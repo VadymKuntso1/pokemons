@@ -42,7 +42,7 @@ div.body>div:last-child{
 @media screen and (max-width:450px) {
     .load-more-button{
         background-color: aqua;
-        width:100vw;
+        width:auto;
         color: white;
         padding: 5vw;
         border-radius: 15vw;
