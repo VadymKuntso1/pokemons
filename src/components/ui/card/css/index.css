@@ -1,0 +1,50 @@
+.card{
+    position: fixed;
+    width: auto;
+    border: 1px solid black;
+    min-width: 20vw;
+    
+}
+.card>img{
+    width: 100%;
+    height: 15vw;
+    align-self: center;
+    object-fit:cover;
+}
+.card>div.properties{
+    display: flex;
+    justify-content: space-between;
+}
+.card>div.properties>span.value>p.property{
+    padding: 0;
+    margin: 0;
+
+}
+.card>div.properties{
+    border-top: 0.2px solid gray;
+}
+.card>div.properties>span.value{
+    border-left: 0.2px solid gray;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.card>div.properties>span.title{
+
+    width: 100%;
+
+}
+.card>div.properties>span{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+@media screen and (max-width:320px) {
+    .card{
+        margin-top: 15vh;
+        background-color: white;
+    }
+    .card>div.properties>span.value{
+        width: 40%;
+    }
+}

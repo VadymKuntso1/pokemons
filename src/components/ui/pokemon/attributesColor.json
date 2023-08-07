@@ -1,0 +1,10 @@
+{
+    "grass":"green",
+    "poison":"purple",
+    "fire":"red",
+    "electric":"yellow",
+    "bug":"brown",
+    "water":"aqua",
+    "flying":"blue",
+    "normal":"brown"
+}
